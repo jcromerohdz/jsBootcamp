@@ -33,3 +33,22 @@ topSongs.push(9);
 console.log(topSongs);
 topSongs.pop();
 console.log(topSongs);
+
+// Shift and Unshift
+let dishesToDo = ["big platter"];
+
+dishesToDo.unshift("large plate");
+
+dishesToDo.unshift("small plate");
+
+dishesToDo.unshift("cereal bowl");
+
+dishesToDo.unshift("mug");
+
+dishesToDo.unshift("dirty spoon");
+
+console.log(dishesToDo);
+
+dishesToDo.shift();
+
+console.log(dishesToDo);
