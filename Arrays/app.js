@@ -52,3 +52,39 @@ console.log(dishesToDo);
 dishesToDo.shift();
 
 console.log(dishesToDo);
+
+// concat method
+
+let fruits = ["apple", "bannana"];
+let veggies = ["asparagus", "brusel sprouts"];
+let meats = ["steak", "chicken breast"];
+
+console.log(fruits.concat(veggies));
+console.log(veggies.concat(fruits));
+
+let allFood = fruits.concat(veggies, meats);
+
+console.log(allFood);
+
+// includes method
+let ingredients = [
+  "water",
+  "conrn starch",
+  "flour",
+  "cheese",
+  "shrimp",
+  "eel",
+  "butter"
+];
+
+console.log(ingredients.includes("fish"));
+console.log(ingredients.includes("shrimp"));
+
+if (ingredients.includes("flour")) {
+  console.log("I AM GLUTE FREE, I CANNOT EAT THAT!");
+}
+
+// indexOF method
+
+console.log(ingredients.indexOf("cheese"));
+console.log(ingredients.indexOf("shrimp", 3));
