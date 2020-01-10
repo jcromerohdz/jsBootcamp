@@ -88,3 +88,30 @@ if (ingredients.includes("flour")) {
 
 console.log(ingredients.indexOf("cheese"));
 console.log(ingredients.indexOf("shrimp", 3));
+
+// Reverse method
+
+let letters = ["T", "I", "T", "O"];
+
+console.log(letters.reverse());
+
+// Join method
+
+console.log(letters.reverse().join());
+
+// Slice method
+
+let animals = ["shark", "salmon", "whale", "bear", "llizard", "tortoise"];
+
+let swimmers = animals.slice(0, 3);
+
+let mammals = animals.slice(2, 4);
+
+let reptiles = animals.slice(4, 6);
+
+let quadruped = animals.slice(-3);
+
+console.log(`Swimmers: ${swimmers}`);
+console.log(`Mammals: ${mammals}`);
+console.log(`Reptiles: ${reptiles}`);
+console.log(`Quadruped: ${quadruped}`);
