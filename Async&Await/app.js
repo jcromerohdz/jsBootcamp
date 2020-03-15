@@ -65,7 +65,7 @@ async function get3Pokemon() {
     // console.log(poke2.data);
     // console.log(poke3.data);
     // console.log(results);
-    printPokemon(results);
+    p rintPokemon(results);
 }
 
 function printPokemon(results) {
